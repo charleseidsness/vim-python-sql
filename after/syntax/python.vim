@@ -11,3 +11,4 @@ unlet! saved_syntax
 
 " Set SQL to match in any javaString that uses single quotes.
 syntax region sqlSnippet matchgroup=pythonTripleQuotes start=/'''/ end=/'''/ contains=@SQL
+syntax region sqlSnippet matchgroup=pythonTripleQuotes start=/f'''/ end=/'''/ contains=@SQL
